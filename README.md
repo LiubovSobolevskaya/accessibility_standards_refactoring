@@ -6,8 +6,8 @@ This is the challenge for the first week of the UCB Bootcamp, where we will be w
 In this challenge, we aim to address the following questions:
 
 * What are accessibility standards and why are they important?
-* What are semantic HTML elements ?
-* What is an accessible alt attributes ?
+* What are semantic HTML elements?
+* What is an accessible alt attribute?
 * What are heading attributes and what sequential order do they fall in?
 * What is a title element and what is it intended to describe?
 
