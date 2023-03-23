@@ -24,7 +24,7 @@ In this challenge, we aim to address the following questions:
 ## Mock-Up
 
 Here is the web application's appearance and functionality:
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./assets/site.gif)
+![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./assets/images/site.gif)
 
 ## Code Refactor Example
 ```html
