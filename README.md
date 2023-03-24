@@ -2,6 +2,7 @@
 
 
 [The link to the deployed page](https://liubovsobolevskaya.github.io/accessibility_standards_refactoring/#social-media-marketing)
+______________
 
 
 This is the challenge for the first week of the UCB Bootcamp, where we will be working on improving an existing HTML and CSS document to comply with accessibility standards. The goal is to ensure that the changes made do not affect the visual appearance of the page.
