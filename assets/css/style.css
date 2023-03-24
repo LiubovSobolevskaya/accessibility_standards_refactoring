@@ -81,8 +81,6 @@ p {
 /* 1. moved child element specifications right after parent's  
    2. deleted redundant classes and replased with content xxx specification,
 where xxx is a child element */
-
-
 .content section {
     margin-bottom: 20px;
     padding: 50px;
