@@ -1,6 +1,7 @@
 # Accessibility Standards Refactoring
 
 
+[The link to the deployed page](https://liubovsobolevskaya.github.io/accessibility_standards_refactoring/#social-media-marketing)
 
 
 This is the challenge for the first week of the UCB Bootcamp, where we will be working on improving an existing HTML and CSS document to comply with accessibility standards. The goal is to ensure that the changes made do not affect the visual appearance of the page.
@@ -27,7 +28,8 @@ Here is the web application's appearance and functionality:
 ![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./assets/readme_img/01-html-css-git-homework-demo.gif)
 
 ## Code Refactor Example
-Changed
+
+I changed the following code:
 ```html
 <div class="content">
     <div class="search-engine-optimization">
@@ -54,7 +56,7 @@ Changed
 </div>
 
 ```
-to
+
 
 ```html
 <main class='content'>
@@ -81,7 +83,8 @@ to
     </section>       
 </main>
 ```
-and also updated corresponding style.css from:
+Here I converted the above non-semantic <div\> with the class of "content" to an appropriate <main\>  semantic element. I also added alt attribute to improve accessibility. Additionally, I changed different class names to the same class name, to avoid redundancy it the the corresponding style.css file:
+
 ```css
 .content {
     width: 75%;
