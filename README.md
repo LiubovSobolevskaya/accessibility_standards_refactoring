@@ -57,7 +57,7 @@ I changed the following code:
 </div>
 
 ```
-
+to:
 
 ```html
 <main class='content'>
