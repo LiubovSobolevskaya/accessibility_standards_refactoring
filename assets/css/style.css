@@ -78,21 +78,20 @@ p {
     margin-left: 20px;
 }
 
-/* 1. moved child element specifications right after parent's  
-   2. deleted redundant classes and replased with content xxx specification,
-where xxx is a child element */
-.content section {
+/* 1. moved child element specifications to right after parent's specifications 
+   2. deleted redundant class names and replased it with content-card */
+.content-card{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     background-color: #0072bb;
 }
 
-.content img {
+.content-card img {
     max-height: 200px;
 }
 
-.content h2 {
+.content-card h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -110,17 +109,17 @@ where xxx is a child element */
     background-color: #2589bd;
     color: #ffffff;
 }
-/* remove redundant class names and used descendants specifications instead */
-.benefits section {
+/* remove redundant class names and added one benefit-card class name */
+.benefit-card{
     margin-bottom: 32px;
 }
 
-.benefits h3 {
+.benefit-card h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefits img {
+.benefit-card img {
     display: block;
     margin: 10px auto;
     max-width: 150px;

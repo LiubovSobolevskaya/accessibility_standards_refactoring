@@ -24,10 +24,10 @@ In this challenge, we aim to address the following questions:
 ## Mock-Up
 
 Here is the web application's appearance and functionality:
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./assets/readme_img/site.gif)
+![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./assets/readme_img/01-html-css-git-homework-demo.gif)
 
 ## Code Refactor Example
-Relaced 
+Changed
 ```html
 <div class="content">
     <div class="search-engine-optimization">
@@ -54,35 +54,31 @@ Relaced
 </div>
 
 ```
-with
+to
 
 ```html
-<!-- сhanged  <div class="content"> to <main class='content'> -->
 <main class='content'>
-    <!-- changed <div class="search-engine-optimization"> to <section id='search-engine-optimization'>-->
-    <section id='search-engine-optimization'>
+    <section id='search-engine-optimization' class='content-card'>
         <img src='./assets/images/search-engine-optimization.jpg' class='float-left' alt = 'laptop with a magnifying glass on it, a notebook with an abbreviation SEO and related terms written on it, a cup with a coffee, and pens'/>
         <h2>Search Engine Optimization</h2>
         <p>
             The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
         </p>
     </section>
-    <!-- changed from <div id="online-reputation-management" class="online-reputation-management">   -->
-    <section id='online-reputation-management'>
+    <section id='online-reputation-management' class='content-card'>
         <img src='./assets/images/online-reputation-management.jpg' class='float-right' alt = 'partial view of a person holding a mobile phone and working on a laptop with a word REPUTATION and several charts on the screen' />
         <h2>Online Reputation Management</h2>
         <p>
             The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
         </p>
     </section>
-    <!-- changed from <div id="social-media-marketing" class="social-media-marketing"> -->
-    <section id='social-media-marketing'>
+    <section id='social-media-marketing' class='content-card'>
         <img src='./assets/images/social-media-marketing.jpg' class='float-left'  alt = 'six people sitting behind a table with several devices and vivid stickers with internet-related pictures and words on top of the table'/>
         <h2>Social Media Marketing</h2>
         <p>
             Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
         </p>
-    </section>
+    </section>       
 </main>
 ```
 and also updated corresponding style.css from:
@@ -149,7 +145,7 @@ and also updated corresponding style.css from:
 ```
 to:
 ```css
-/* moved color and font-family to more general specification, since they are the same for all children */
+
 .content {
     color: #ffffff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -158,21 +154,18 @@ to:
     margin-left: 20px;
 }
 
-/* 1. moved child element specifications right after parent's  
-   2. deleted redundant classes and replased with content xxx specification,
-where xxx is a child element */
-.content section {
+.content-card{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     background-color: #0072bb;
 }
 
-.content img {
+.content-card img {
     max-height: 200px;
 }
 
-.content h2 {
+.content-card h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
