@@ -1,7 +1,7 @@
 # Accessibility Standards Refactoring
 
 
-[The link to the deployed page](https://liubovsobolevskaya.github.io/accessibility_standards_refactoring/#social-media-marketing)
+[The link to the deployed page](https://liubovsobolevskaya.github.io/accessibility_standards_refactoring/)
 ______________
 
 
